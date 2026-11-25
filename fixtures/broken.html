@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Deliberately broken keyboard fixture</title></head>
+<body>
+  <h1>Deliberately broken controls</h1>
+  <button id="trap-a" type="button">Trapped first</button>
+  <button id="trap-b" type="button">Trapped second</button>
+  <button id="unnamed" type="button"></button>
+  <input id="unnamed-input">
+  <div id="click-only" role="button" tabindex="-1" onclick="this.dataset.clicked='yes'">Click-only action</div>
+  <button id="outside" type="button">Outside action</button>
+  <script>
+    const trapped = [document.querySelector('#trap-a'), document.querySelector('#trap-b')];
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Tab' && trapped.includes(document.activeElement)) {
+        event.preventDefault();
+        trapped[1 - trapped.indexOf(document.activeElement)].focus();
+      }
+    });
+  </script>
+</body>
+</html>

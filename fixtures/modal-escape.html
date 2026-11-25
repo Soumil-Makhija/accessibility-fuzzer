@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Escape dismisses this modal</title></head>
+<body>
+  <h1>Modal keyboard fixture</h1>
+  <button id="outside-a" type="button">Outside first</button>
+  <button id="outside-b" type="button">Outside second</button>
+  <dialog id="modal" aria-labelledby="dialog-title">
+    <h2 id="dialog-title">Review preferences</h2>
+    <button id="modal-a" type="button">First modal action</button>
+    <button id="modal-b" type="button">Second modal action</button>
+  </dialog>
+  <script>
+    const modal = document.querySelector('#modal');
+    const controls = [...modal.querySelectorAll('button')];
+    modal.addEventListener('keydown', (event) => {
+      if (event.key === 'Tab' && controls.includes(document.activeElement)) {
+        event.preventDefault();
+        controls[1 - controls.indexOf(document.activeElement)].focus();
+      }
+    });
+    modal.showModal();
+  </script>
+</body>
+</html>

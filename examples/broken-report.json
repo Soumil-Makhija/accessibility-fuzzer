@@ -1,0 +1,1126 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:61911/",
+  "options": {
+    "steps": 30,
+    "settleMs": 20
+  },
+  "scope": {
+    "topLevelLightDomOnly": true,
+    "actualScreenReader": false,
+    "simulatedAnnouncement": true,
+    "announcementSource": "Plain Chromium AX role/name summaries, not actual assistive-technology speech or behavior.",
+    "reloadsPage": true,
+    "actions": [
+      "Tab",
+      "Shift+Tab",
+      "Escape recovery probe"
+    ],
+    "limitation": "Bounded evidence only; no accessibility-conformance or complete keyboard-reachability claim. Closed shadow roots, browser chrome, cross-frame focus and application-specific arrow-key navigation are not covered."
+  },
+  "coverage": {
+    "candidateCount": 6,
+    "candidateLimitPerDirection": 1000,
+    "forwardCandidateTotal": 6,
+    "reverseCandidateTotal": 6,
+    "axNodes": {
+      "forward": 21,
+      "reverse": 21
+    },
+    "sampledSteps": {
+      "forward": 30,
+      "reverse": 30
+    },
+    "reachedCandidateCount": 5,
+    "nativeModalInertCandidateCount": 0,
+    "bounded": true
+  },
+  "traces": {
+    "forward": [
+      {
+        "step": 1,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 2,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 3,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 4,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 5,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 6,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 7,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 8,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 9,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 10,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 11,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 12,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 13,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 14,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 15,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 16,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 17,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 18,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 19,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 20,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 21,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 22,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 23,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 24,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 25,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 26,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 27,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 28,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 29,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 30,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      }
+    ],
+    "reverse": [
+      {
+        "step": 1,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1)",
+        "tag": "body",
+        "domId": null,
+        "probeId": "focus-reverse-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "none",
+        "name": null,
+        "axStatus": "ignored",
+        "simulatedAnnouncement": "Not exposed in this Chromium accessibility snapshot"
+      },
+      {
+        "step": 2,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(4)",
+        "tag": "button",
+        "domId": "outside",
+        "probeId": "candidate-5",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Outside action",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Outside action"
+      },
+      {
+        "step": 3,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+        "tag": "input",
+        "domId": "unnamed-input",
+        "probeId": "candidate-3",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "textbox",
+        "name": "",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "textbox: (unnamed)"
+      },
+      {
+        "step": 4,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+        "tag": "button",
+        "domId": "unnamed",
+        "probeId": "candidate-2",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: (unnamed)"
+      },
+      {
+        "step": 5,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 6,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 7,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 8,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 9,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 10,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 11,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 12,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 13,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 14,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 15,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 16,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 17,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 18,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 19,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 20,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 21,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 22,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 23,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 24,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 25,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 26,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 27,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 28,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      {
+        "step": 29,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      {
+        "step": 30,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      }
+    ]
+  },
+  "escapeProbes": [
+    {
+      "direction": "forward",
+      "cycle": {
+        "period": 2,
+        "repetitions": 3,
+        "subset": [
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)"
+        ],
+        "outside": [
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(4)"
+        ]
+      },
+      "before": {
+        "step": 30,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      "afterEscape": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      "afterTab": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      "recovered": false,
+      "recoveryReason": "no-observed-recovery",
+      "recoveryYield": "animation-frame-and-task"
+    },
+    {
+      "direction": "reverse",
+      "cycle": {
+        "period": 2,
+        "repetitions": 3,
+        "subset": [
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)"
+        ],
+        "outside": [
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+          "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(4)"
+        ]
+      },
+      "before": {
+        "step": 30,
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      "afterEscape": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+        "tag": "button",
+        "domId": "trap-a",
+        "probeId": "candidate-0",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped first",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped first"
+      },
+      "afterTab": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+        "tag": "button",
+        "domId": "trap-b",
+        "probeId": "candidate-1",
+        "nestedFocus": false,
+        "openNativeModals": 0,
+        "role": "button",
+        "name": "Trapped second",
+        "axStatus": "exposed",
+        "simulatedAnnouncement": "button: Trapped second"
+      },
+      "recovered": false,
+      "recoveryReason": "no-observed-recovery",
+      "recoveryYield": "animation-frame-and-task"
+    }
+  ],
+  "findings": [
+    {
+      "type": "unlabeled-control",
+      "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+      "message": "Chromium exposes an interactive control with an empty accessible name.",
+      "evidence": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+        "probeId": "candidate-2",
+        "domId": "unnamed",
+        "tag": "button",
+        "tabIndex": 0,
+        "tabEligible": true,
+        "nativeModalInert": false,
+        "role": "button",
+        "name": "",
+        "axStatus": "exposed",
+        "observedIn": [
+          "forward",
+          "reverse"
+        ]
+      }
+    },
+    {
+      "type": "unlabeled-control",
+      "id": "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+      "message": "Chromium exposes an interactive control with an empty accessible name.",
+      "evidence": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+        "probeId": "candidate-3",
+        "domId": "unnamed-input",
+        "tag": "input",
+        "tabIndex": 0,
+        "tabEligible": true,
+        "nativeModalInert": false,
+        "role": "textbox",
+        "name": "",
+        "axStatus": "exposed",
+        "observedIn": [
+          "forward",
+          "reverse"
+        ]
+      }
+    },
+    {
+      "type": "unreached-control",
+      "id": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1)",
+      "message": "A visible potentially interactive candidate was not reached in either bounded keyboard direction. Intentional composite-widget focus targets may need manual review.",
+      "evidence": {
+        "id": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1)",
+        "probeId": "candidate-4",
+        "domId": "click-only",
+        "tag": "div",
+        "tabIndex": -1,
+        "tabEligible": false,
+        "nativeModalInert": false,
+        "role": "button",
+        "name": "Click-only action",
+        "axStatus": "exposed",
+        "observedIn": [
+          "forward",
+          "reverse"
+        ],
+        "sampledStepsPerDirection": 30
+      }
+    },
+    {
+      "type": "suspected-focus-trap",
+      "message": "Keyboard focus repeated a strict subset three times while other tab-eligible controls existed; Escape followed by Tab did not reach those outside controls. Confirm the intended widget or modal behavior manually.",
+      "evidence": {
+        "probes": [
+          {
+            "direction": "forward",
+            "cycle": {
+              "period": 2,
+              "repetitions": 3,
+              "subset": [
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)"
+              ],
+              "outside": [
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(4)"
+              ]
+            },
+            "before": {
+              "step": 30,
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+              "tag": "button",
+              "domId": "trap-b",
+              "probeId": "candidate-1",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped second",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped second"
+            },
+            "afterEscape": {
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+              "tag": "button",
+              "domId": "trap-b",
+              "probeId": "candidate-1",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped second",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped second"
+            },
+            "afterTab": {
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+              "tag": "button",
+              "domId": "trap-a",
+              "probeId": "candidate-0",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped first",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped first"
+            },
+            "recovered": false,
+            "recoveryReason": "no-observed-recovery",
+            "recoveryYield": "animation-frame-and-task"
+          },
+          {
+            "direction": "reverse",
+            "cycle": {
+              "period": 2,
+              "repetitions": 3,
+              "subset": [
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)"
+              ],
+              "outside": [
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(3)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > input:nth-of-type(1)",
+                "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(4)"
+              ]
+            },
+            "before": {
+              "step": 30,
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+              "tag": "button",
+              "domId": "trap-a",
+              "probeId": "candidate-0",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped first",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped first"
+            },
+            "afterEscape": {
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(1)",
+              "tag": "button",
+              "domId": "trap-a",
+              "probeId": "candidate-0",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped first",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped first"
+            },
+            "afterTab": {
+              "id": "html:nth-of-type(1) > body:nth-of-type(1) > button:nth-of-type(2)",
+              "tag": "button",
+              "domId": "trap-b",
+              "probeId": "candidate-1",
+              "nestedFocus": false,
+              "openNativeModals": 0,
+              "role": "button",
+              "name": "Trapped second",
+              "axStatus": "exposed",
+              "simulatedAnnouncement": "button: Trapped second"
+            },
+            "recovered": false,
+            "recoveryReason": "no-observed-recovery",
+            "recoveryYield": "animation-frame-and-task"
+          }
+        ]
+      }
+    }
+  ],
+  "warnings": [],
+  "fixture": "broken"
+}

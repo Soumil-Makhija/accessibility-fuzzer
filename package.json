@@ -1,0 +1,15 @@
+{
+  "name": "keyboard-accessibility-fuzzer",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Bounded keyboard navigation probes with Chromium accessibility evidence",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "keyboard-audit": "src/cli.js" },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "check": "node --check src/cli.js && node --check src/audit.js",
+    "demo": "node src/cli.js --fixture broken"
+  },
+  "dependencies": { "playwright": "1.64.1" }
+}
